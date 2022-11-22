@@ -1,13 +1,14 @@
 import React from 'react'
+import Imagepage from './Imagepage'
 
 export default function Readmore() {
   return (
     <div>
-    <h2>Readmore Second page</h2>
-    <text>This is where the second page will be</text>
-    <div>
-    <a href="/">Homepage</a>
-    </div>
+      <h2>Readmore Second page</h2>
+      <div>
+        <a href="/">Homepage</a>
+      </div>
+      <Imagepage/>
     </div>
   )
 }
