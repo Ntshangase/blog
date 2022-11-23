@@ -19,7 +19,7 @@ import Image16 from '../assets/Imagesuggestion/SPINACH.jpg'
 
 export default function Imagepage() {
   return (
-    <div className="columns-3">
+    <div className="grid gap-x-2 gap-y-2 grid-cols-3 px-2 ">
         <img src={image1} alt='image1' />
         <img src={image2} alt='image2' />
         <img src={Image3} alt='Image3' />
