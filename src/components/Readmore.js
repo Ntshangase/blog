@@ -1,5 +1,6 @@
 import React from 'react'
 import Imagepage from './Imagepage'
+import Selector from './Selector'
 
 export default function Readmore() {
   return (
@@ -8,6 +9,7 @@ export default function Readmore() {
       <div>
         <a href="/">Homepage</a>
       </div>
+      <Selector />
       <Imagepage/>
     </div>
   )
